@@ -90,7 +90,8 @@
                                 руководителю</button>
                         </div>
                         <div class="uk-width-expand">
-                            <button class="uk-button uk-button-default">Расписание занятий</button>
+                            <button class="uk-button uk-button-default" uk-toggle="target: #ModalRaspis">Расписание
+                                занятий</button>
                         </div>
                         <div class="uk-width-auto">
                             <ul class="uk-subnav">
@@ -116,7 +117,7 @@
                             </div>
 
                             <div class="uk-margin">
-                                <input class="uk-input" type="text" placeholder="Емейл">
+                                <input class="uk-input" type="text" placeholder="Электронная почта">
                             </div>
 
                             <div class="uk-margin">
@@ -130,6 +131,52 @@
                             <button class="uk-button uk-button-primary" type="button">Отправить</button>
                         </p>
                     </form>
+                </div>
+            </div>
+            <div id="ModalRaspis" class="uk-modal-full" uk-modal>
+                <div class="ModalPrimary uk-modal-dialog uk-background-primary">
+                    <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+                    <div class="uk-grid-collapse uk-flex-middle" uk-grid>
+                        <div class="uk-width-2-1 uk-padding-large">
+                            <table class="uk-table">
+                                <thead>
+                                    <tr>
+                                        <th>Вторник</th>
+                                        <th></th>
+                                        <th>Четверг</th>
+                                        <th></th>
+                                        <th>Пятница</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th>17:00-17:45</th>
+                                        <td>Бэби класс, каб. №314</td>
+                                        <th>17:00-17:40</th>
+                                        <td>Бэби класс, каб. №221</td>
+                                        <th>15:30-17:00</th>
+                                        <td>Бэби класс, каб. №203</td>
+                                    </tr>
+                                    <tr>
+                                        <th>17:45-18:45</th>
+                                        <td>Младшая группа, каб. №314</td>
+                                        <th>17:45-18:45</th>
+                                        <td>Младшая группа, каб. №221</td>
+                                        <th>17:45-18:45</th>
+                                        <td>Младшая группа, каб. №203</td>
+                                    </tr>
+                                    <tr>
+                                        <th>18:45-20:15</th>
+                                        <td>Средняя группа, каб. №314</td>
+                                        <th>18:45-20:15</th>
+                                        <td>Средняя группа, каб. №221</td>
+                                        <th>18:45-20:15</th>
+                                        <td>Средняя группа, каб. №203</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
                 </div>
             </div>
 

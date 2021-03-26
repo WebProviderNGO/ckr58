@@ -162,6 +162,7 @@ h2 {
     font-size: .65rem;
 }
 
+.ModalPrimary,
 .ModalPrimary .uk-modal-dialog,
 .ModalPrimary legend {
     color: white;
@@ -217,4 +218,14 @@ h2 {
 .KollectiviIcoBut .uk-subnav>*>a:focus,
 .KollectiviIcoBut .uk-subnav>*>a:hover {
     color: white !important;
+}
+
+#ModalRaspis th {
+    color: white;
+    font-weight: 700;
+    text-align: center;
+}
+
+.uk-close {
+    color: black;
 }
