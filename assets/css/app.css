@@ -25,3 +25,15 @@ ul.uk-nav-sub {
     margin-left: 10px;
     background: #faa811;
 }
+
+.uk-section-muted {
+    background: #fdfdfd;
+}
+
+.uk-modal-title {
+    font-size: 1.5rem;
+}
+
+.uk-background-primary {
+    background: var(--ColorPrimary) !important;
+}

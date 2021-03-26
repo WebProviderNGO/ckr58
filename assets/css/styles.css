@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
 
+html {
+    --ColorPrimary: #d8832b;
+}
+
 body,
 h2,
 h3 {
@@ -13,7 +17,7 @@ h2 {
 
 .Left {
     height: 100vh;
-    background-color: #E4980F;
+    background-color: var(--ColorPrimary);
     overflow-y: auto;
 }
 
@@ -73,12 +77,8 @@ h2 {
     height: 100vh;
 }
 
-.HomePrivet {
-    background: #fdfdfd;
-}
-
 .HomePrivet img {
-    box-shadow: -20px -20px 0 0 #E4980F;
+    box-shadow: -20px -20px 0 0 var(--ColorPrimary);
 }
 
 .HomePrivet .fa-5x,
@@ -88,7 +88,7 @@ h2 {
 
 .HomePrivet [uk-parallax] {
     position: relative;
-    color: #E4980F;
+    color: var(--ColorPrimary);
 }
 
 .HomePrivet .fa-genderless {
@@ -126,8 +126,10 @@ h2 {
     color: black;
 }
 
+
+
 .HomeInfo {
-    background: #E4980F;
+    background: var(--ColorPrimary) !important;
     color: black;
 }
 
@@ -160,36 +162,59 @@ h2 {
     font-size: .65rem;
 }
 
-#Feedback .uk-modal-dialog {
-    background: #E4980F;
+.ModalPrimary .uk-modal-dialog,
+.ModalPrimary legend {
     color: white;
 }
 
-#Feedback .uk-input,
-#Feedback .uk-textarea {
+.ModalPrimary .uk-input,
+.ModalPrimary .uk-textarea {
     background: rgba(255, 255, 255, 0.25);
     border: none;
     color: white;
 }
 
-#Feedback .uk-input::placeholder,
-#Feedback .uk-textarea::placeholder {
+.ModalPrimary .uk-input:focus,
+.ModalPrimary .uk-textarea:focus {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.ModalPrimary .uk-input::placeholder,
+.ModalPrimary .uk-textarea::placeholder {
     color: white;
     opacity: 1;
 }
 
-#Feedback .uk-form-custom {
+.ModalPrimary .uk-form-custom {
     background: rgba(255, 255, 255, 0.25);
 }
 
-#Feedback .BtnSelect {
-    color: white;
+.ModalPrimary .BtnSelect {
     text-transform: none;
     font-size: 1rem;
     border: none;
 }
 
-#Feedback .BtnSend {
-    background: white;
-    border: none;
+.ModalPrimary .uk-button-default {
+    color: white;
+}
+
+.ModalPrimary .uk-button-default:focus,
+.ModalPrimary .uk-button-default:hover {
+    border-color: white;
+}
+
+.ModalPrimary .uk-button-primary {
+    background-color: #e5e5e5;
+    color: black;
+}
+
+.ModalPrimary .uk-button-primary:focus,
+.ModalPrimary .uk-button-primary:hover {
+    background-color: white;
+}
+
+.KollectiviIcoBut .uk-subnav>*>a:focus,
+.KollectiviIcoBut .uk-subnav>*>a:hover {
+    color: white !important;
 }
