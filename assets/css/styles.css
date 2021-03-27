@@ -8,6 +8,7 @@ body,
 h2,
 h3 {
     font-family: 'Raleway', sans-serif !important;
+    font-variant-numeric: lining-nums;
 }
 
 h2 {
@@ -107,15 +108,19 @@ h2 {
     border-bottom: 1px solid #eee;
 }
 
-.BlockInfo h3>a {
+.BlockInfo h3>a,
+.NewsItem h3>a,
+.NewsItemSmall h3>a {
     color: black;
     font-weight: bold;
-    border-bottom: 1px solid #faa811;
+    border-bottom: 1px solid var(--ColorPrimary);
 }
 
-.BlockInfo h3>a:hover {
+.BlockInfo h3>a:hover,
+.NewsItem h3>a:hover,
+.NewsItemSmall h3>a:hover {
     text-decoration: none;
-    color: #faa811;
+    color: var(--ColorPrimary);
 }
 
 .BlockInfo mark {
@@ -228,4 +233,53 @@ h2 {
 
 .uk-close {
     color: black;
+}
+
+.NewsItem time,
+.NewsItemSmall time,
+.News time {
+    color: white;
+    text-align: center;
+    line-height: 1.25rem;
+}
+
+.NewsTime1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.NewsItem .uk-card-body {
+    background-color: white;
+}
+
+.NewsItem h3 {
+    font-size: 1.25rem;
+}
+
+.NewsItemSmall h3 {
+    font-size: 1rem;
+}
+
+.NewsItemSmall p {
+    font-size: .9rem;
+}
+
+.NewsItemSmall .uk-overlay,
+.News .uk-overlay {
+    padding: 15px;
+}
+
+.NewsItemSmall .uk-overlay-default,
+.News .uk-overlay-default {
+    background: transparent;
+}
+
+.NewsItemSmall .uk-overlay>a:hover,
+.News .uk-overlay>.uk-subnav>li>a:hover {
+    color: black;
+}
+
+.News h2 {
+    margin: 0;
+    line-height: 2.25rem;
 }

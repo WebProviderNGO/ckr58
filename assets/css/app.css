@@ -23,7 +23,7 @@ ul.uk-nav-sub {
 
 .uk-badge {
     margin-left: 10px;
-    background: #faa811;
+    background: var(--ColorPrimary);
 }
 
 .uk-section-muted {
