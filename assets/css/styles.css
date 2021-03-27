@@ -281,5 +281,7 @@ h2 {
 
 .News h2 {
     margin: 0;
-    line-height: 2.25rem;
+    font-size: 2rem;
+    line-height: 2rem;
+    color: black;
 }

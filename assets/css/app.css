@@ -37,3 +37,21 @@ ul.uk-nav-sub {
 .uk-background-primary {
     background: var(--ColorPrimary) !important;
 }
+
+.uk-lightbox-toolbar-icon {
+    color: white;
+}
+
+.uk-slidenav,
+.uk-lightbox-button {
+    background-color: white;
+    color: black;
+}
+
+.uk-slidenav:focus,
+.uk-slidenav:hover,
+.uk-lightbox-button:focus,
+.uk-lightbox-button:hover,
+.uk-lightbox-toolbar-icon:hover {
+    color: var(--ColorPrimary);
+}
