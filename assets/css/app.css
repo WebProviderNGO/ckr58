@@ -38,10 +38,7 @@ ul.uk-nav-sub {
     background: var(--ColorPrimary) !important;
 }
 
-.uk-lightbox-toolbar-icon {
-    color: white;
-}
-
+.uk-lightbox-toolbar-icon,
 .uk-slidenav,
 .uk-lightbox-button {
     background-color: white;
