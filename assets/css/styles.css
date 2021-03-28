@@ -285,3 +285,29 @@ h2 {
     line-height: 2rem;
     color: black;
 }
+
+/* .Doc a::before{
+    display: inline-block;
+    position: relative;
+    font-family: FontAwesome;
+    content: "\f1c1";
+    color: red;
+    margin-right: .5rem;
+    right: 100%;
+    font-size: 2rem;
+    line-height: 2rem;
+    float: right;
+} */
+
+.Docs .uk-icon {
+    color: red;
+    font-size: 2rem;
+}
+
+.Doc {
+    padding-right: 20px;
+}
+
+.Docs>div {
+    margin-bottom: 20px;
+}
