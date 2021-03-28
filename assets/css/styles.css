@@ -316,10 +316,6 @@ h2 {
     color: black;
 }
 
-.Contact .CardOtdel {
-    border: 2px solid var(--ColorPrimary);
-}
-
 .Contact .CardOtdel p {
     margin: 0;
 }
@@ -331,5 +327,7 @@ h2 {
 }
 
 .CardLudi .uk-text-lead {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: #333;
 }
