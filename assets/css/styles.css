@@ -78,7 +78,7 @@ h2 {
     height: 100vh;
 }
 
-.HomePrivet img {
+.HomePrivet img, .CardLudi img {
     box-shadow: -20px -20px 0 0 var(--ColorPrimary);
 }
 
@@ -310,4 +310,26 @@ h2 {
 
 .Docs>div {
     margin-bottom: 20px;
+}
+
+.Contact .uk-text-bold{
+    color: black;
+}
+
+.Contact .CardOtdel {
+    border: 2px solid var(--ColorPrimary);
+}
+
+.Contact .CardOtdel p {
+    margin: 0;
+}
+
+.CardLudi {
+    background: transparent;
+    box-shadow: none;
+    text-align: center;
+}
+
+.CardLudi .uk-text-lead {
+    font-size: 1.25rem;
 }
