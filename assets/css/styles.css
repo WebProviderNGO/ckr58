@@ -75,7 +75,8 @@ h2 {
     height: 100vh;
 }
 
-.HomePrivet img, .CardLudi img {
+.HomePrivet img,
+.CardLudi img {
     box-shadow: -20px -20px 0 0 var(--ColorPrimary);
 }
 
@@ -276,11 +277,15 @@ h2 {
     color: black;
 }
 
-.News h2 {
+.ContentBlock h2,
+.ContentBlock dt {
+    color: black;
+}
+
+.ContentBlock h2 {
     margin: 0;
     font-size: 2rem;
     line-height: 2rem;
-    color: black;
 }
 
 /* .Doc a::before{
@@ -309,7 +314,7 @@ h2 {
     margin-bottom: 20px;
 }
 
-.Contact .uk-text-bold{
+.Contact .uk-text-bold {
     color: black;
 }
 
