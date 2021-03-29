@@ -278,7 +278,9 @@ h2 {
 }
 
 .ContentBlock h2,
-.ContentBlock dt {
+.ContentBlock dt,
+.CardUslugi .uk-card-title,
+.CardUslugi dt {
     color: black;
 }
 
@@ -287,19 +289,6 @@ h2 {
     font-size: 2rem;
     line-height: 2rem;
 }
-
-/* .Doc a::before{
-    display: inline-block;
-    position: relative;
-    font-family: FontAwesome;
-    content: "\f1c1";
-    color: red;
-    margin-right: .5rem;
-    right: 100%;
-    font-size: 2rem;
-    line-height: 2rem;
-    float: right;
-} */
 
 .Docs .uk-icon {
     color: red;
