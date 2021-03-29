@@ -24,6 +24,7 @@ h2 {
 
 .LeftIco a {
     color: white !important;
+    text-align: center;
 }
 
 .LeftIco a:focus,
@@ -31,17 +32,13 @@ h2 {
     color: #eee !important;
 }
 
-.LeftIco>* {
-    padding: 30px;
-}
-
 .LeftSoc>* {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
 }
 
 .LeftSoc a {
-    padding: 10px;
+    padding: 5px;
     border: 1px solid #faa811;
     color: #fcba41 !important;
     text-align: center;
